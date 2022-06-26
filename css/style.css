@@ -16,7 +16,7 @@
 
 body{
     overflow: hidden;
-    background: url(../images/protruding-squares.svg);
+    background: url(../images/desktop-background.svg);
 }
 
 .container{
@@ -143,4 +143,43 @@ p{
     color: white;
     background-color: var(--button);
     padding: 8px 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container{
+        display: none;
+    }
+
+    .mobile-message{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+
+    body{
+        background: url(../images/mobile-background.svg);
+    }
+
+    .content-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        gap: 20px;
+        color: white;
+        font-family: var(--font);
+        max-width: 80%;
+    }
+
+    .content-mobile h1{
+        font-weight: 600;
+    }
+
+    .content-mobile p{
+        font-weight: 500;
+    }
 }
