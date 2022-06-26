@@ -1,0 +1,146 @@
+:root{
+    --line: #4CC9F0;
+    --border: #F72585;
+    --button: #7209B7;
+    --button-hover: #B5179E;
+    --button-click: #F72585;
+    --title-changer: #480CA8;
+
+
+    --font: 'mulich', sans-serif;
+}
+
+::selection{
+    background-color: #480CA8;
+}
+
+body{
+    overflow: hidden;
+    background: url(../images/protruding-squares.svg);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--font);
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 50px;
+}
+
+.cheats{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border: 2px solid var(--border);
+    padding: 15px;
+}
+
+li.cheats{
+    z-index: 999;
+}
+
+h2.name{
+    border-bottom: 2px solid var(--line);
+    font-weight: 600;
+}
+
+p{
+    text-align: center;
+}
+
+.cheats li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#btn{
+    background-color: var(--button);
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-family: var(--font);
+    font-weight: 600;
+}
+
+#btn:hover{
+    background-color: var(--button-hover);
+}
+
+#btn:active{
+    background-color: var(--button-click);
+}
+
+.title-changer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #480CA8;
+    padding: 15px 20px;
+    border-bottom-left-radius: 15px;
+}
+
+.title-changer input[type = text]{
+    background-color: #fff;
+    color: black;
+    margin-right: 20px;
+    width: 200px;
+    height: 25px;
+    padding: 0 15px;
+}
+
+.title-changer button{
+    background-color: var(--button);
+    color: white;
+    padding: 5px 10px;
+}
+
+.title-changer button:hover{
+    background-color: var(--button-hover);
+}
+
+.title-changer button:active{
+    background-color: var(--button-click);
+}
+
+.download{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--title-changer);
+    width: 300px;
+    height: 60px;
+    border-bottom-right-radius: 15px;
+}
+
+.download a{
+    color: white;
+    background-color: var(--button);
+    padding: 8px 20px;
+}
