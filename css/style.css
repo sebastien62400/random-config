@@ -207,39 +207,39 @@ p{
 
 
 @media screen and (max-width: 1000px) {
-    .container{
+
+    .title-changer{
         display: none;
     }
 
-    .mobile-message{
+    .download{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .cheats{
+        width: 98%;
+    }
+
+    .cheats{
+        gap: 12%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100vw;
-        height: 100vh;
         text-align: center;
     }
 
-    body{
-        background: url(../images/mobile-background.svg);
+    h2.name{
+        font-size: 24px;
     }
 
-    .content-mobile{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-self: center;
-        gap: 20px;
-        color: white;
-        font-family: var(--font);
-        max-width: 80%;
-    }
-
-    .content-mobile h1{
-        font-weight: 600;
-    }
-
-    .content-mobile p{
-        font-weight: 500;
+    .refreshed-message{
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0 0 15px 0;
+        text-align: center;
+        font-size: 15px;
     }
 }
