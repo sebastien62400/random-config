@@ -14,15 +14,15 @@
             <div class="cheats">
                 <li>
                     <h2 class="name" id="etienne">Etienne</h2>
-                    <p id="result-e">Config</p>
+                    <p id="result-e" class="result">Config</p>
                 </li>
                 <li>
                     <h2 class="name" id="valentin">Valentin</h2>
-                    <p id="result-v">Config</p>
+                    <p id="result-v" class="result">Config</p>
                 </li>
                 <li>
                     <h2 class="name" id="sebastien">Sébastien</h2>
-                    <p id="result-s">Config</p>
+                    <p id="result-s" class="result">Config</p>
                 </li>
             </div>
             <div class="buttons-container">
@@ -32,11 +32,21 @@
                 <div class="refresh">
                     <button id="btn">Refresh</button>
                 </div>
+                <div class="stop-speak">
+                    <button id="btn">Stop speak</button>
+                </div>
             </div>
+
+            <!-- On stand-by -->
+
+            <!-- <div class="voice_config">
+                <h1>Voice parameter</h1>
+                <select name="voices" id="js-select-tts"></select>
+            </div> -->
         </div>
 
         <div class="title-changer">
-            <input type="text" placeholder="Type something ..." id="text-title-change">
+            <input type="text" placeholder="!reset for reset title." id="text-title-change">
             <button id="button-changer-title">change title</button>
         </div>
 
@@ -48,14 +58,21 @@
                 <a href="https://cdn.discordapp.com/attachments/728986191092776981/990516614766166016/Configs.zip" >New configs</a>
             </div>
         </div>
-    </div>
+        <div class="refreshed-message">
+            <div class="content-message">
+                <h1>REFRESHED</h1>
+            </div>
+        </div>
 
+    </div>
+    
     <div class="mobile-message">
         <div class="content-mobile">
             <h1>Please, use a computer</h1>
             <p>The site is not responsive. ( Not my goal now )</p>
         </div>
     </div>
+
 
     <!-- JavaScript -->
     <script src="./script/app.js"></script>

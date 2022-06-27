@@ -1,6 +1,10 @@
-# colors used
+# Colors used
 
-https://coolors.co/palette/f72585-b5179e-7209b7-560bad-480ca8-3a0ca3-3f37c9-4361ee-4895ef-4cc9f0
+https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
 
-# creator
-instagram : sebastien.010703
+# Creator
+instagram : sebastien010703
+
+# /_\
+
+I code this for personal use. So the code is a shit, I will change it later ( I know the code sucks ).
